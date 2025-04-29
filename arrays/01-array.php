@@ -15,5 +15,5 @@ for ($i = 0; $i < $n; $i++) {
         $pos = $i;
     }
 }
-echo number_format($max, 1, '.', '');
+echo number_format($max, 1, '.', '') . PHP_EOL;
 echo $pos . PHP_EOL;

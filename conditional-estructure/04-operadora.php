@@ -8,4 +8,4 @@ if ($minutos > 100) {
 } else {
     $valor = 50;
 }
-echo"$valor";
+echo"Valor a paga: R$$valor";
